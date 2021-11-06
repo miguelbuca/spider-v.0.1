@@ -9,7 +9,7 @@ interface iTheme{
     }
 }
 export interface ContextProps<T>{
-    theme: T,
-    setTheme?: (prev: T) => void,
+    theme: any,
+    setTheme?: any,
     defaultValue?: T 
 }
