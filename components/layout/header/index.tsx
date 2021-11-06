@@ -16,7 +16,7 @@ function Header() {
 
   useEffect(() => {
 
-    const theme: iTheme = state ? defaultValue : {
+    const theme: any = state ? defaultValue : {
       colors: {
         default: '#fff',
         main: '#85b3da',
