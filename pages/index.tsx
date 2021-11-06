@@ -24,7 +24,7 @@ const GlobalStyle = createGlobalStyle`
 
 const Home: NextPage = () => {
 
-  const { theme } = UseTheme()
+  const { theme } = UseTheme();
 
   return (
     <div>
