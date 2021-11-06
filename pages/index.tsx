@@ -5,7 +5,7 @@ import Marvel from "../components/helper/marvel";
 import PlayStation from "../components/helper/playstation";
 import Button from "../components/layout/button";
 import Header from "../components/layout/header";
-import { Main } from "./index.styles";
+import { Main } from "../util/index.styles";
 
 import { UseTheme } from '../components/context/theme'
 import {  ThemeProvider ,createGlobalStyle } from "styled-components";
